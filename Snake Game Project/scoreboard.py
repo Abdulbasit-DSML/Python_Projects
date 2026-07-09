@@ -6,3 +6,6 @@ def __init__(self):
         self.high_score = int(data.read())
         self.score = 0
         self.color("white")
+        self.penup()
+        self.goto(0,270)
+        
