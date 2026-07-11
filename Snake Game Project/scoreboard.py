@@ -18,4 +18,6 @@ def update_scoreboard(self):
  def reset(self):
         if self.score > self.high_score:
             self.high_score = self.score
+            with open("data.txt","w") as data:
+                    data.write(f"{self.high_score}")
         
