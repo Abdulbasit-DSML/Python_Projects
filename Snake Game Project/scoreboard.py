@@ -13,4 +13,5 @@ def __init__(self):
 
 def update_scoreboard(self):
         self.clear()
+        self.write(f"Score:{self.score} High score: {self.high_score}", align="center", font=("Arial", 20, "normal"))
         
