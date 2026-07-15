@@ -9,3 +9,5 @@ TEXT_COLOR = "#333333"
 window = Tk()
 window.title("MyPass Manager")
 window.config(padx=50, pady=50, bg=BG_COLOR)
+
+canvas = Canvas(width=200, height=200, bg=BG_COLOR, highlightthickness=0)
