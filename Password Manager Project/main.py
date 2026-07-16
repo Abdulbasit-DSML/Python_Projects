@@ -18,3 +18,5 @@ canvas.grid(row=0, column=1)
 # Labels
 website_label = Label(text="Website:", bg=BG_COLOR, fg=TEXT_COLOR)
 website_label.grid(row=1, column=0)
+email_label = Label(text="Email/Username:", bg=BG_COLOR, fg=TEXT_COLOR)
+email_label.grid(row=2, column=0)
