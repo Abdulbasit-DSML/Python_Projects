@@ -14,3 +14,7 @@ canvas = Canvas(width=200, height=200, bg=BG_COLOR, highlightthickness=0)
 lock_image = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=lock_image)
 canvas.grid(row=0, column=1)
+
+# Labels
+website_label = Label(text="Website:", bg=BG_COLOR, fg=TEXT_COLOR)
+website_label.grid(row=1, column=0)
