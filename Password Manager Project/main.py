@@ -32,3 +32,5 @@ email_entry.grid(row=2, column=1, columnspan=2, pady=5)
 email_entry.insert(0, "abc@gmail.com")
 
 # Password Frame
+pass_frame = Frame(window, bg=BG_COLOR)
+pass_frame.grid(row=3, column=1, columnspan=2, sticky="w", pady=5)
