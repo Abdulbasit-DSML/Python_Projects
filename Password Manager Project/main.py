@@ -29,3 +29,6 @@ website_entry.grid(row=1, column=1, columnspan=2, pady=5)
 website_entry.focus()
 email_entry = Entry(width=45)
 email_entry.grid(row=2, column=1, columnspan=2, pady=5)
+email_entry.insert(0, "abc@gmail.com")
+
+# Password Frame
