@@ -22,3 +22,6 @@ email_label = Label(text="Email/Username:", bg=BG_COLOR, fg=TEXT_COLOR)
 email_label.grid(row=2, column=0)
 password_label = Label(text="Password:", bg=BG_COLOR, fg=TEXT_COLOR)
 password_label.grid(row=3, column=0)
+
+# Entries
+website_entry = Entry(width=45)
