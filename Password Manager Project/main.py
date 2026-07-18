@@ -45,3 +45,6 @@ generate_password_button.pack(side="left")
 # Add Button
 add_button = Button(text="Add to Vault", width=38, bg=BTN_ADD_COLOR, fg="white", command=save)
 add_button.grid(row=4, column=1, columnspan=2, pady=10)
+
+window.mainloop()
+
