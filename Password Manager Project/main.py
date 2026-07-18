@@ -34,3 +34,7 @@ email_entry.insert(0, "abc@gmail.com")
 # Password Frame
 pass_frame = Frame(window, bg=BG_COLOR)
 pass_frame.grid(row=3, column=1, columnspan=2, sticky="w", pady=5)
+
+
+password_entry = Entry(pass_frame, width=25)
+password_entry.pack(side="left", padx=(0, 5))
