@@ -40,4 +40,4 @@ password_entry = Entry(pass_frame, width=25)
 password_entry.pack(side="left", padx=(0, 5))
 
 generate_password_button = Button(pass_frame, text="Generate", bg=BTN_GEN_COLOR, command=generate_password)
-
+generate_password_button.pack(side="left")
