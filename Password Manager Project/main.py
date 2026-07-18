@@ -41,3 +41,7 @@ password_entry.pack(side="left", padx=(0, 5))
 
 generate_password_button = Button(pass_frame, text="Generate", bg=BTN_GEN_COLOR, command=generate_password)
 generate_password_button.pack(side="left")
+
+# Add Button
+add_button = Button(text="Add to Vault", width=38, bg=BTN_ADD_COLOR, fg="white", command=save)
+
