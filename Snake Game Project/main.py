@@ -23,3 +23,6 @@ screen.onkey(fun=snake.left,key="Left")
 
 screen.onkey(fun=snake.right,key="Right")
 game_is_on = True
+
+while game_is_on:
+    screen.update()
