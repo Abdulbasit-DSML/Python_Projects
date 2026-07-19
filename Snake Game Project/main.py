@@ -17,3 +17,6 @@ scoreboard = ScoreBoard()
 
 screen.listen()
 screen.onkey(fun=snake.up,key="Up")
+
+screen.onkey(fun=snake.down,key="Down")
+screen.onkey(fun=snake.left,key="Left")
