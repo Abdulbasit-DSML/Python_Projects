@@ -9,7 +9,8 @@ import random
 
 
 
-
+def flip_card():
+    canvas.itemconfig(card_title, text="English", fill="white")
 
 
 
@@ -34,3 +35,5 @@ unknown_button.grid(row=1, column=0, pady=(20, 20))
 check_image = PhotoImage(file="images/right.png")
 known_button = Button(image=check_image, highlightthickness=0, borderwidth=0, bg=BACKGROUND_COLOR, command=is_known)
 known_button.grid(row=1, column=1, pady=(20, 20))
+
+window.mainloop()
