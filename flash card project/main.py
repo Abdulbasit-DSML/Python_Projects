@@ -3,7 +3,10 @@ import pandas
 import random
 
 
-
+def next_card():
+    global current_card, flip_timer
+    window.after_cancel(flip_timer)
+    current_card = random.choice(to_learn)
 
 
 
