@@ -6,3 +6,5 @@ parameters = {
 }
 
 
+
+response = requests.get("https://opentdb.com/api.php", params=parameters)
